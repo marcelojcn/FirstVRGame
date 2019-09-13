@@ -27,7 +27,7 @@ public class PlatformController : MonoBehaviour
         transform.position = targets[startingPosition].position;
 
         // First next target
-        nextIndex = ((startingPosition + 1) == targets.Length) ? 0 : (startingPosition + 1);
+        nextIndex = ((startingPosition + 1) >= targets.Length) ? 0 : (startingPosition + 1);
     }
 
     // Update is called once per frame
