@@ -34,13 +34,13 @@ public class PlatformController : MonoBehaviour
     private void Update()
     {
         // Check for input
-        HandleInput();
+        //HandleInput();
 
-        if (isMoving)
-        {
+        //if (isMoving)
+        //{
             // Move to target
             HandleMovement();
-        }
+        //}
     }
     
     private void HandleInput()
